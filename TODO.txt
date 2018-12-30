@@ -35,9 +35,9 @@ Tune the model with different hyperparameters:
 Multioutput (one output for each pair) or single output (16 types)
 RNN
 1D CNN
-Random Forests
-XG Boosts
-Ensemble all of them.
+Random Forests        (did not do)
+XG Boosts             (did not do)
+Ensemble all of them. (did not do)
 k-fold validation
 
 =======
