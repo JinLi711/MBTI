@@ -1,0 +1,59 @@
+==========
+Background
+==========
+
+MBTI stands for the Myers Briggs Type Indicator, a personality system to divide personality types into 16 groups.
+
+Introversion (I) – Extroversion (E)
+Intuition    (N) – Sensing      (S)
+Thinking     (T) – Feeling      (F)
+Judging      (J) – Perceiving   (P)
+
+For example, a person labeled as INTJ has attributes of Introversion, Intuition, Thinking, and Judging.
+
+Meaning:
+(I) vs (E): Does the person prefer their inner world or outer world?
+(N) vs (S): Does the person prefer interpreting and adding meaning or focusing on basic infomation?
+(T) vs (F): Does the person look at logic and consistency or look at the people and circumstances?
+(J) vs (P): Does the person prefer deciding things or staying open to new infomation or options?
+
+
+=========
+Objective
+=========
+
+1) Detect personality types based on a person's writing.
+2) Generate text based on a person's personality type.
+
+
+=======
+Content
+=======
+
+8600 rows, one for each different person.
+There are two columns:
+    MBTI type
+    A section of the last 50 things the person has posted. (Each entry separated by "|||" (3 pipe characters))
+
+
+===========
+Assumptions
+===========
+
+
+==================
+Things to Consider
+==================
+
+MBTI isn't a perfect system and its reliabilty has been called into question by many scientists.
+
+
+================
+Acknowledgements
+================
+
+Data was collected from Personality Cafe forum.
+https://www.personalitycafe.com/forum/
+
+Concepts about MBTI were taken from the Myers & Briggs Foundation.
+https://www.myersbriggs.org/my-mbti-personality-type/mbti-basics/home.htm?bhcp=1

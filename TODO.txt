@@ -1,0 +1,59 @@
+=============
+Visualization
+=============
+
+Observe snippets of text from each type.
+
+
+=============
+Preprocessing
+=============
+
+Split into train, validation, and test set.
+Dimension reduction.
+
+===========
+Pretraining
+===========
+
+Stanford GloVe
+
+
+======
+Models
+======
+
+Constrain the weights.
+Tune the model with different hyperparameters:
+    *learning rate (large with decay)
+    layer size
+    layer number
+    kernel
+    stride
+    activation functions
+
+Multioutput (one output for each pair) or single output (16 types)
+RNN
+1D CNN
+Random Forests
+XG Boosts
+Ensemble all of them.
+k-fold validation
+
+=======
+Testing
+=======
+
+See if I can get text from somewhere else and apply this.
+View result on tensorboard (I couldn't get the TensorBoard callback to create histograms or embeddings)
+Visualize model with keras.
+
+=================
+Baseline Accuracy
+=================
+Random Guessing: 1/16.
+
+
+====
+Tips
+====
