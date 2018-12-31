@@ -1,5 +1,5 @@
 # MBTI
-Text analysis on posts to predict the personality types of people.
+This repository performs text analysis on posts to predict the personality types of people.
 
 ## Results
 
